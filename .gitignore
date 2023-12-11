@@ -1,0 +1,13 @@
+# Carpeta node_modules generada por npm/yarn
+node_modules/
+
+# Archivo .env que contiene variables de entorno
+.env
+
+# Archivos generados al compilar código
+/dist/
+/build/
+
+# Cualquier archivo o carpeta que desees omitir
+archivo_a_omitir.txt
+carpeta_a_omitir/
