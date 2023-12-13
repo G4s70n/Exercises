@@ -1,4 +1,4 @@
-const toJadenCase = require('../exercises/1.js');  // Ajusta la ruta según la ubicación de tu archivo ejercicio.js
+const toJadenCase = require('../exercises/1.js');  // Ajustar la ruta según la ubicación de tu archivo ejercicio.js
 
 test('Convierte una cadena a Jaden Case correctamente', () => {
   const texto = "hola, esta es una cadena de ejemplo";
