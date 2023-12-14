@@ -12,8 +12,8 @@ Example(Input => Output):
 
 
 function digitize(n) {
-    //code here
-  
+    let arrNumber = Array.from(String(n), Number);
+    return arrNumber.reverse()
   }
 
 
