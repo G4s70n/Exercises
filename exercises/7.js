@@ -18,7 +18,12 @@ printer_error(s) => "8/22" */
 
 
 function printerError(s) {
-    // your code
+    let countErrors = 0;
+    let errorsAndLength = "";
+    for(let i = 0; i < s.length; i++){
+        if(s[i] !== )
+    }
+    
 }
 
 
