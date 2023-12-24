@@ -18,13 +18,11 @@ printer_error(s) => "8/22" */
 
 
 function printerError(s) {
-    let countErrors = 0;
-    let errorsAndLength = "";
-    for(let i = 0; i < s.length; i++){
-        if(s[i] !== )
-    }
+   let matches = s.match(/[^a-m]/g) || [];
+   return "" + matches.length + "/" + s.length;
     
 }
 
+console.log(printerError("aaabbbbhaijjjm"));
 
 module.exports = printerError;
