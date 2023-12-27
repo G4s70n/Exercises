@@ -19,3 +19,12 @@ const coincidencias = texto.match(/[aeiou]/gi);// Encuentra todas las vocales, '
 
 console.log(coincidencias); // Output: ['e', 'o', 'o']
 ```
+
+### test()
+
+```javascript
+let text = "Hello world";
+let result = /world/i.test(text); // Solo se puede buscar utilizando expresiones regulares
+
+console.log(result) // Output: true
+```
