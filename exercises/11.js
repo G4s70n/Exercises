@@ -5,12 +5,13 @@ Implement a function that accepts 3 integer values a, b, c. The function should 
  */
 
 
- function isTriangle(a, b, c) {
-    if(a<1 || b<1 || c<1) return false;
-    if(a+b > c || a+c > b || b+c > a) return true;
-  
+function isTriangle(a, b, c) {
+  if (a < 1 || b < 1 || c < 1) return false;
+  if (a + b > c && a + c > b && b + c > a) return true;
+
   return false;
 } 
+
 
 
 
