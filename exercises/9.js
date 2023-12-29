@@ -44,7 +44,7 @@ function miniMaxSum(arr) {
     arr= arr.sort();
     function sum(arr, index) {
         let sum = 0;
-        for(let i = 0; i < arr.length -1; i++ ){
+        for(i = 0; i < arr.length -1; i++ ){
             sum += arr[index]
             index++;
         }
