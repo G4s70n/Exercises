@@ -22,5 +22,22 @@ The middle character(s) of the word represented as a string.
 
 function getMiddle(s)
 {
-  //Code goes here!
+  let totalCharacters = s.length;
+  if(totalCharacters < 2) return s;
+  if(totalCharacters > 3 && totalCharacters % 2 === 0) {
+   return s[totalCharacters / 2 - 1] + s[totalCharacters / 2]
+  }
+  if(totalCharacters > 2 && totalCharacters % 2 === 1){
+    return s[(totalCharacters + 1) / 2 - 1]
+  }
+
 }
+
+// Determinar cantidad caracteres
+// Checkear si es par o impar
+// Si es par y mayor a 3, devolver los 2 caracteres del medio del string
+// (total / 2 -1  y total / 2 + 1)
+// Si el numero es inpar y mayor a 2, devolver el caracter del medio.
+// (total + 1 / 2 - 1)
+
+console.log(getMiddle('gat'))
