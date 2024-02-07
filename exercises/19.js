@@ -11,5 +11,10 @@ because 12+22+22 9.
 
 
 function squareSum(numbers){
+    let sum = 0;
+    numbers.forEach(e => sum += e*e);
 
+    return sum;
 }
+
+squareSum([1,2,2]);
