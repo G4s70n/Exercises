@@ -30,5 +30,3 @@ function order(words) {
 
 console.log(order("4of Fo1r pe6ople g3ood th5e the2"));
 
-// Si es una cadena vacía, devolver ''
-// 
