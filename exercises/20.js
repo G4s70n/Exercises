@@ -13,6 +13,18 @@ Examples
 */
 
 
-function order(words){
-  // ...
+
+function order(words) {
+  if(words.length === 0) return ''; 
+  
+  const arr = words.split(' ');
+  const result = new Array(arr.length);
+  
+  arr.forEach(word => {
+
+    const index = parseInt(word.match(/\d/)[0]) - 1;
+    result[index] = word;
+  });
+
+  return result.join(' ');
 }
